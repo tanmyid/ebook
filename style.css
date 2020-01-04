@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css?family=Pangolin);
+@import url(http://fonts.googleapis.com/css?family=Orbitron:700);
+@import url(https://fonts.googleapis.com/css?family=Electrolize&display=swap);
+
+body {
+    background-color: #1a1a1a;
+    color: #cecccc;
+    font-family: Pangolin;
+    font-size: 15px;
+}
+
+.jumbotron-color {
+    background-color: #161616;
+
+}
+
+hr {
+    border: 1px solid #fff;
+}
+
+.top-logo {
+    height: 30px;
+    width: 31px;
+}
+
+.fa-home::before {
+    content: "";
+}
+
+.navbar-logo {
+    height: 17px;
+    width: 18px;
+}
+
+.judul {
+    font-size: 19px;
+    font-family: Electrolize;
+    font-weight: bold;
+    color: #CE000A;
+}
+
+.judul_navbar {
+    font-size: 13px;
+    font-family: 'Electrolize';
+    font-weight: bold;
+    color: #CE000A;
+}
+
+.judul_brand {
+    font-size: 15px;
+    font-family: Electrolize;
+    font-weight: bold;
+}
+
+.table-black {
+    background: transparent;
+    color: #cecccc;
+}
+
+.table-black:hover {
+    color: #fff;
+}
+
+
+/*tr:hover {
+    text-shadow: 0px 0px 8px #ffffff;
+}*/
+
+.card-color {
+    background: #201f1f;
+    color: #cecccc;
+}
+
+.card-hider {
+    padding: .10rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #201f1f;
+    border-bottom: 1px solid rgba(0, 0, 0, .125)
+}
+
+.faq {
+    background-color: #1a1a1a;
+    color: #cecccc;
+    font-family: Pangolin;
+    font-size: 14px;
+}
+
+
+.carousel-inner {
+    width: 100%;
+    max-height: 576px !important;
+}
+
+.btn-ibis {
+    color: #fff;
+    background: #CE000A;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.300rem 0.50rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+
+    /*width: rem; 
+    height: 5rem;*/
+}
+
+.btn-link {
+    font-weight: 400;
+    color: #a70101;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: #e2010c;
+    text-decoration: underline;
+}
+
+.ibis-position {
+    position: fixed;
+    bottom: 1px;
+    right: 2px;
+}
+
+a {
+    color: #CE000A;
+}
+
+a:hover {
+    color: #e2010c;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 0px solid #dee2e6;
+}
+
+.judul_tbl {
+    font-size: 15px;
+    font-family: Electrolize;
+    font-weight: bold;
+    color: #CE000A;
+}
+
+.flag {
+    width: 13px;
+    height: 10px;
+}
+
+.ibis-thumbnail {
+    padding: 0.25rem;
+    /*background-color: #fff;*/
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+  }
